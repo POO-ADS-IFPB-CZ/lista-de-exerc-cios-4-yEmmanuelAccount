@@ -36,6 +36,8 @@ $\quad$ Nos casos de hierarquias de herança, existe a obrigatoriedade do uso do
 
 4\. Crie uma classe abstrata Pagamento com o método processar(double valor). Implemente CartaoCredito, Boleto e Pix com regras diferentes (ex: taxa, desconto). No main, use polimorfismo para processar pagamentos com diferentes formas.
 
+$\quad$ A resposta está na pasta referente a [Questão 04](/questao04/).
+
 ## Questão 05
 
 5\. Crie a classe abstrata Personagem com o método atacar(). Crie subclasses Guerreiro, Mago e Arqueiro, cada uma com lógica distinta no ataque. Implemente um main que simule um turno de combate polimórfico.
