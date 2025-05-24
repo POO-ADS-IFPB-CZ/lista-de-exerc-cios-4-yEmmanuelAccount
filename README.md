@@ -30,6 +30,8 @@ $\quad$ Já o **protected** é um pouco mais flexível que o **private**, mas te
 
 3\. Explique como funciona a chamada de construtores em hierarquias de herança. Por que é obrigatório que o construtor da superclasse seja chamado explicitamente ou implicitamente?
 
+$\quad$ Nos casos de hierarquias de herança, existe a obrigatoriedade do uso do _constructor_ da superclasse para que a inicialização dos objetos envolvidos comecem da _superclasse_ e apenas depois sigam para a _subclasse_. Com esse procedimento, é garantido o bom funcionamento do código com as _subclasses_ tendo suas dependências mantidas nas _superclasses_.
+
 ## Questão 04
 
 4\. Crie uma classe abstrata Pagamento com o método processar(double valor). Implemente CartaoCredito, Boleto e Pix com regras diferentes (ex: taxa, desconto). No main, use polimorfismo para processar pagamentos com diferentes formas.
