@@ -41,3 +41,5 @@ $\quad$ A resposta está na pasta referente a [Questão 04](/questao04/).
 ## Questão 05
 
 5\. Crie a classe abstrata Personagem com o método atacar(). Crie subclasses Guerreiro, Mago e Arqueiro, cada uma com lógica distinta no ataque. Implemente um main que simule um turno de combate polimórfico.
+
+$\quad$ A resposta está na pasta referente a [Questão 05](/questao05/).
